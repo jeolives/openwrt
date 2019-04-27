@@ -10,7 +10,7 @@ ifeq ($(SUBTARGET),cortexa9)
 
 define Device/linksys
   DEVICE_TITLE := Linksys $(1)
-  DEVICE_PACKAGES := kmod-mwlwifi wpad-basic swconfig
+  DEVICE_PACKAGES := kmod-mwlwifi wpad-basic
 endef
 
 define Device/armada-385-linksys
